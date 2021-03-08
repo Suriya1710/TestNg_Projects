@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="491" started-at="2021-03-06T11:19:23 IST" finished-at="2021-03-06T11:19:24 IST">
+    <groups>
+      <group name="Electronics">
+        <method signature="Grouping_Test.earphonesSearch()[pri:0, instance:com.TestNg_Concepts.Grouping_Test@2ac273d3]" name="earphonesSearch" class="com.TestNg_Concepts.Grouping_Test"/>
+        <method signature="Grouping_Test.laptopSearch()[pri:0, instance:com.TestNg_Concepts.Grouping_Test@2ac273d3]" name="laptopSearch" class="com.TestNg_Concepts.Grouping_Test"/>
+        <method signature="Grouping_Test.mobileSearch()[pri:0, instance:com.TestNg_Concepts.Grouping_Test@2ac273d3]" name="mobileSearch" class="com.TestNg_Concepts.Grouping_Test"/>
+      </group> <!-- Electronics -->
+      <group name="Books">
+        <method signature="Grouping_Test.bookSearch()[pri:0, instance:com.TestNg_Concepts.Grouping_Test@2ac273d3]" name="bookSearch" class="com.TestNg_Concepts.Grouping_Test"/>
+        <method signature="Grouping_Test.novelSearch()[pri:0, instance:com.TestNg_Concepts.Grouping_Test@2ac273d3]" name="novelSearch" class="com.TestNg_Concepts.Grouping_Test"/>
+      </group> <!-- Books -->
+    </groups>
+    <test name="Test" duration-ms="491" started-at="2021-03-06T11:19:23 IST" finished-at="2021-03-06T11:19:24 IST">
+      <class name="com.TestNg_Concepts.Grouping_Test">
+        <test-method status="PASS" signature="bookSearch()[pri:0, instance:com.TestNg_Concepts.Grouping_Test@2ac273d3]" name="bookSearch" duration-ms="85" started-at="2021-03-06T11:19:24 IST" finished-at="2021-03-06T11:19:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookSearch -->
+        <test-method status="PASS" signature="earphonesSearch()[pri:0, instance:com.TestNg_Concepts.Grouping_Test@2ac273d3]" name="earphonesSearch" duration-ms="15" started-at="2021-03-06T11:19:24 IST" finished-at="2021-03-06T11:19:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- earphonesSearch -->
+        <test-method status="PASS" signature="laptopSearch()[pri:0, instance:com.TestNg_Concepts.Grouping_Test@2ac273d3]" name="laptopSearch" duration-ms="57" started-at="2021-03-06T11:19:24 IST" finished-at="2021-03-06T11:19:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptopSearch -->
+        <test-method status="PASS" signature="mobileSearch()[pri:0, instance:com.TestNg_Concepts.Grouping_Test@2ac273d3]" name="mobileSearch" duration-ms="18" started-at="2021-03-06T11:19:24 IST" finished-at="2021-03-06T11:19:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSearch -->
+        <test-method status="PASS" signature="novelSearch()[pri:0, instance:com.TestNg_Concepts.Grouping_Test@2ac273d3]" name="novelSearch" duration-ms="13" started-at="2021-03-06T11:19:24 IST" finished-at="2021-03-06T11:19:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- novelSearch -->
+      </class> <!-- com.TestNg_Concepts.Grouping_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
